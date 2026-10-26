@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+    color: #0c0a09; /* Deep solid stone-950 for maximum contrast */
+    background-color: #fafaf9;
+    font-size: 1.05rem;
+    font-weight: 500; /* Sturdy medium weight by default, never thin */
+    line-height: 1.65;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+    font-weight: 750;
+    color: #0c0a09;
+  }
+
+  p, span, li, button, input, select {
+    font-weight: 500;
+  }
+}
+
+/* User-adjustable font scaling */
+html.font-scale-large {
+  font-size: 19px;
+}
+
+html.font-scale-xlarge {
+  font-size: 21px;
+}
+
+.font-armenian {
+  font-family: 'Noto Sans Armenian', system-ui, sans-serif;
+  font-weight: 600; /* Robust weight so Armenian loops and ascenders are crisp and thick */
+  letter-spacing: 0.015em;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}

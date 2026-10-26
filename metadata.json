@@ -1,0 +1,6 @@
+{
+  "name": "Lengua y Literatura 1.º ESO - Tutor Bilingüe",
+  "description": "Aplicación interactiva y tutor bilingüe (Español - Հայերեն) para preparar con éxito el examen escolar de Lengua Castellana y Literatura de 1.º de la ESO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
